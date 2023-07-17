@@ -1,60 +1,45 @@
-# DiskerNet: An Archive of Your Online Journey
+# How DiskerNet Works
 
-![source lines of code](https://sloc.xyz/github/crisdosyago/Diskernet)
-![npm downloads (22120)](https://img.shields.io/npm/dt/archivist1?label=npm%20downloads%20%2822120%29)
-![npm downloads (diskernet, since Jan 2022)](https://img.shields.io/npm/dt/diskernet?label=npm%20downloads%20%28diskernet%2C%20since%20Jan%202022%29)
-![binary downloads](https://img.shields.io/github/downloads/c9fe/22120/total?label=OS%20binary%20downloads)
-![visitors+++](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fc9fe%2F22120&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%28today%2Ftotal%29%20visitors%2B%2B%2B%20since%20Oct%202027%202020&edge_flat=false)
-![version](https://img.shields.io/npm/v/diskernet)
-![DiskerNet slogan](https://img.shields.io/badge/%F0%9F%92%BE%20DiskerNet-an%20internet%20on%20yer%20disc-hotpink)
+DiskerNet is an innovative tool that allows you to archive and organize your internet browsing experience seamlessly. It connects to your browser, giving you the power to save and categorize online discoveries in real-time. Let's dive into how DiskerNet works:
 
-DiskerNet empowers you to be the master archivist of your own internet browsing. As a robust, lightweight tool, DiskerNet seamlessly connects to your browser, saving and organizing your online discoveries in real-time. With an option to archive everything or only bookmark-worthy content, DiskerNet places you in full control of your browsing history. No special plugins or extensions required.
+1. **Installation**:
+   - DiskerNet can be installed in multiple ways, making it accessible to a wide range of users.
+   - You can download pre-built releases from the [GitHub repository](https://github.com/crisdosyago/Diskernet/releases). Choose the appropriate version for your operating system and follow the installation instructions.
+   - Alternatively, if you're familiar with Node.js and npm (Node Package Manager), you can install DiskerNet using the command-line:
+     ```sh
+     $ npm i -g diskernet@latest
+     ```
 
-## Why DiskerNet?
+2. **Setup and Configuration**:
+   - Once installed, DiskerNet doesn't require any additional browser plugins or extensions.
+   - After installation, DiskerNet runs as a local server on your machine, acting as a bridge between your browser and the archived content.
 
-- **Access**: Keep track of your online finds without breaking a sweat.
-- **Efficiency**: Find your saved content fast, saving you time for more exploration.
-- **Flexibility**: Share your archive with others or maintain your digital solitude.
-- **Simplicity**: No frills, no fuss. DiskerNet is straightforward to use, requiring no extra tools or plugins.
-- **Organization**: Search through everything you've archived with full text search of all archived content. Your own personal search engine.
-  
-## Latest Updates
+3. **Real-time Archiving**:
+   - DiskerNet works in the background while you browse the internet. It automatically captures and saves the content you encounter, allowing you to revisit it later.
+   - When you come across something interesting, whether it's an article, image, or webpage, DiskerNet gives you the option to archive it.
 
-**Local SSL Certificates Now Supported!** :lock: :tada: 
+4. **Bookmark-Worthy Content**:
+   - DiskerNet provides the flexibility to choose what to archive. You can save everything you come across or only bookmark-worthy items, helping you maintain a focused and organized archive.
 
-Ensure your DiskerNet server runs over TLS with our support for local SSL certificates. 
+5. **Centralized Archive**:
+   - All the archived content is stored locally on your machine, giving you complete control over your data.
+   - The content is organized efficiently, making it easy for you to find saved items without wasting time.
 
-## Licensing
+6. **Search and Retrieval**:
+   - DiskerNet acts as your personal search engine for your archived content.
+   - It offers a full-text search feature, allowing you to quickly find specific items by searching for keywords or phrases.
 
-DiskerNet is protected under the APGL-3.0
+7. **Security and Privacy**:
+   - DiskerNet takes your privacy seriously. Since it operates locally on your machine, your data remains under your control.
+   - The optional support for local SSL certificates ensures secure communication between the DiskerNet server and your browser.
 
-## Get DiskerNet
+8. **Sharing Options**:
+   - While DiskerNet prioritizes individual control, it also offers sharing options. You can choose to share specific archived content with others if desired.
 
-[Download a release](https://github.com/crisdosyago/Diskernet/releases)
+9. **Updates and Contributions**:
+   - DiskerNet is an open-source project, and contributions from the community are welcome. If you're interested in getting involved, you can build your own binaries from the source code and even contribute to the project.
 
-or ...
+10. **Licensing**:
+    - DiskerNet is licensed under the APGL-3.0 (Affero General Public License), ensuring that the software remains open-source and accessible to everyone.
 
-Install via **[npm](https://www.npmjs.com/package/diskernet)**:
-
-```sh
-$ npm i -g diskernet@latest
-```
-
-or...
-
-**Build your own binaries:**
-
-```sh
-$ git clone https://github.com/crisdosyago/DiskerNet
-$ cd DiskerNet
-$ npm i
-
-## Contributions!
-
-Welcome! Get involved. :)
-$ ./scripts/build_setup.sh
-$ ./scripts/compile.sh
-$ cd bin/
-```
-
-Navigate your digital world with DiskerNet. Download and start archiving today!
+DiskerNet empowers you to navigate your digital world with ease, providing a seamless archiving experience without any unnecessary complexities. Whether you're an information hoarder or a minimalist, DiskerNet gives you the tools to keep track of your online journey, making your browsing experience more efficient and organized. Start archiving your internet discoveries today with DiskerNet!
